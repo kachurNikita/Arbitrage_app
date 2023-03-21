@@ -41,7 +41,7 @@ class MarketCap:
                 if currency == obj[parameter_type].lower():
                     currency_id =  obj['id']
             if currency_id:
-                print('ye')
+
                 return currency_id
         else:
             print("Currency not found")

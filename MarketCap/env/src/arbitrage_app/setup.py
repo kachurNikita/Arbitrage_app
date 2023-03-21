@@ -5,7 +5,7 @@ with open('requirements.txt') as f:
 
 setup(
     name='Market_app',
-    scripts=['main.py', 'test_arbitrage_app.py'],
+    scripts=['main.py'],
     version='1.0',
     description='Simple Market app',
     author='Kachur Nikita',
